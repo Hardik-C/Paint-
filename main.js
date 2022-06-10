@@ -8,8 +8,6 @@ var mouseEvent = "empty";
 
  
     canvas.addEventListener("mousedown", my_mousedown);
-    canvas.setEventListener("mousedown", my_mousedown);
-    canvas.getEventListener("mousedown", my_mousedown);
 
     function my_mousedown(e)
     {
